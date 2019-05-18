@@ -11,6 +11,7 @@ public class Service : IService
 {
 	public string GetData(int value)
 	{
+		//  Format the output data
 		return string.Format("You entered: {0}", value);
 	}
 
