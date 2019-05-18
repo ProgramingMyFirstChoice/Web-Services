@@ -24,6 +24,7 @@ public interface IService
 [DataContract]
 public class CompositeType
 {
+	// Bool variable
 	bool boolValue = true;
 	string stringValue = "Hello ";
 
